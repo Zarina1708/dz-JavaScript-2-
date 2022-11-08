@@ -1,0 +1,27 @@
+* {
+    background-color: rgb(252, 248, 190);
+}
+
+input {
+    background-color: white;
+}
+
+button {
+    background-color: rgb(99, 122, 252);
+}
+
+.item {
+    width: 500px;
+    height: 500px;
+    background-color: darkgrey;
+    margin: 10%;
+    position: relative;
+    box-shadow:   0 0 5px 5px rgba(59, 57, 170, 0.2);
+}
+
+.item2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(253, 247, 230);
+    position: absolute;
+}
