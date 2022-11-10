@@ -2,14 +2,6 @@
     background-color: rgb(252, 248, 190);
 }
 
-input {
-    background-color: white;
-}
-
-button {
-    background-color: rgb(99, 122, 252);
-}
-
 .item {
     width: 500px;
     height: 500px;
