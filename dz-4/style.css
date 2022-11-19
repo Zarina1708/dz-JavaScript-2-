@@ -1,0 +1,53 @@
+.wrapper {
+    text-align: center;
+    margin: 5%;
+}
+
+.title {
+    color: #aa8f17;
+    text-shadow: 1px 1px 0 #252424, -1px 1px 0 #191717, 1px -1px 0 #1b1919, -1px -1px 0 #191717;
+    margin-bottom: 50px;
+}
+
+.puzzle {
+    font-family: 'Open Sans', sans-serif;
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 0;
+}
+
+.send {
+    margin-top: 20px;
+    display: inline-block;
+  width: 13em;
+  font-size: 70%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  outline: none;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+.send:first-line{
+    font-size: 150%;
+    font-weight: 500;
+  }
+.send:hover {
+    color: rgb(255,255,255);
+    background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+  }
+.send:active {
+    color: rgb(255,255,255);
+    border-color: #2970a9;
+    background-image: linear-gradient(#5796c8, #6aa2ce);
+    box-shadow: none;
+  }
+
